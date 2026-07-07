@@ -110,12 +110,14 @@ li {
 
 
 main {
-    background-color: #eee;
+    /*background-color: #eee;*/
+    background-color: #333333;
     padding-bottom: 20px;
 }
 
 .main-2 {
-    background-color: #eee;
+    /*background-color: #eee;*/
+    background-color: #333333;
     padding: 60px 0 10px 0;
 }
 
@@ -365,7 +367,8 @@ h1 {
 }
 
 .back-w {
-    background-color: white;
+    /*background-color: white;*/
+    background-color: #eee;
     padding: 60px;
     box-sizing: border-box;
     width: 45%;
@@ -450,7 +453,8 @@ h2 {
 .section2 {
     width: 80%;
     margin: 0 auto 60px auto;
-    background-color: white;
+    /*background-color: white;*/
+    background-color: #eee;
     padding: 70px;
 }
 
