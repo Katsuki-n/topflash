@@ -368,7 +368,9 @@ h1 {
 
 .back-w {
     /*background-color: white;*/
-    background-color: #eee;
+    /*background-color: #eee;*/
+    color: white;
+    background-color: #15a4f1;
     padding: 60px;
     box-sizing: border-box;
     width: 45%;
@@ -443,6 +445,13 @@ h2 {
     margin-top: 50px;
 }
 
+.back-w a:hover {
+    color: white;
+    background-color: #1f3a5f;
+    border: 2px solid #1f3a5f;
+    transition: 0.5s;
+}
+
 .back-r a:hover {
     color: white;
     background-color: #1f3a5f;
@@ -464,8 +473,10 @@ h2 {
 }
 
 .sec2-1 {
-    width: 47%;
-    margin-bottom: 30px;
+    /*width: 47%;*/
+    width: 100%;
+    margin-bottom: 80px;
+    /*margin-bottom: 30px;*/
 }
 
 .sec2-1 img {
@@ -709,4 +720,120 @@ service 事業内容
     color: #666;
     margin-top: 10px;
     line-height: 1.6;
+}
+
+.content-img {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.content-img img {
+    width: 80%;
+    height: auto;
+    display: inline-block;
+}
+
+/*
+.ser-h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 2.6rem;
+}*/
+
+/*-------------------------------------------
+advantage 当社の強み
+-------------------------------------------*/
+.head-main-ad {
+    background-image: url("img/ad.jpg");
+    text-align: center;
+    height: 500px;
+    padding-top: 220px;
+    background-size: cover;
+    position: relative;
+}
+
+.adv-strength {
+    position: relative;
+    max-width: 1200px;
+    margin-top: 100px;
+    padding: 40px 0;
+}
+
+/* 中央の縦線 */
+.adv-strength::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #ddd;
+    transform: translateX(-50%);
+}
+
+.adv-item {
+    position: relative;
+    width: 50%;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+/* 左側 */
+.adv-item:nth-child(odd) {
+    margin-right: auto;
+    text-align: right;
+}
+
+/* 右側 */
+.adv-item:nth-child(even) {
+    margin-left: auto;
+    text-align: left;
+}
+
+/* 中央の丸 */
+.adv-item::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 18px;
+    height: 18px;
+    background: #15a4f1;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.adv-item:nth-child(odd)::after {
+    right: -9px;
+}
+
+.adv-item:nth-child(even)::after {
+    left: -9px;
+}
+
+/* 番号 */
+.adv-num {
+    display: block;
+    font-size: 72px;
+    font-weight: 700;
+    color: #ddd;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.adv-content h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.notice-ad {
+    font-size: 0.75rem;
+    color: #666;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.adv-content p {
+    color: white;
+    line-height: 1.8;
 }
