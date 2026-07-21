@@ -10,7 +10,17 @@ body {
     width: 100%;
     padding-top: 100px;
     margin: 0;
+
 }
+
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 100%;
+    min-height: 100vh;
+}
+
 
 a {
     text-decoration: none;
@@ -120,6 +130,7 @@ main {
     background-color: #333333;
     padding: 60px 0 10px 0;
 }
+
 
 
 /*-------------------------------------------
@@ -692,7 +703,7 @@ service 事業内容
 
 .service-grid {
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
